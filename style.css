@@ -64,12 +64,17 @@ h2{
     align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position:left center;
 }
 .left{
     width: 30%;
 }
 .left img{
     width: 100%;
+    height: 360px;
 }
 .right{
     width: 50%;
@@ -83,8 +88,25 @@ h3{
     justify-content: space-around;
     align-items: center;
     margin-bottom: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: right bottom;
 }
-
+.bonus{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.bonus-part{
+    width: 20%;
+    padding: 15px;
+    box-shadow: 5px 5px 30px gray;
+}
+.bonus-part img{
+    width: 100%;
+    height: 200px;
+}
 .footer{
     background-color: black;
     color: white;
